@@ -15,6 +15,9 @@
 - <>
 
 ## Screenshots
+![miniRt](https://github.com/mohouyizme/minimado/assets/118683350/f80221b5-557c-4929-8ab3-9ea0a270bedc)
+![Mini_rt scene](https://github.com/mohouyizme/minimado/assets/118683350/45ac1835-ae95-42b8-babd-4a745de7b923)
+![Mini_rt scene](https://github.com/mohouyizme/minimado/assets/118683350/830eb9f6-d178-4231-a89a-7c29e63b84bd)
 
 ## Setup
 ### Installation
