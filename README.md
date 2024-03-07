@@ -10,10 +10,10 @@
 
 ![github-header-image](https://github.com/ilhamsalhi/WebServ/assets/118683350/8925dd70-a6f1-44dc-9e93-4b9690064361)
 
-## Description
-This Ray Tracer is a project exploring the world of ray tracing, a rendering technique that simulates the path of light to create realistic images. It uses a combination of algorithms and mathematics to accurately model the behavior of light as it interacts with various objects in a scene.
+## Description ✨🌐
+This Ray Tracer is a project exploring the world of ray tracing, a rendering technique that simulates the path of light to create realistic images. It uses a combination of algorithms and mathematics to accurately model the behavior of light as it interacts with various objects in a scene🎨🌟.
 
-[Nvidia Raytracing explination](https://developer.nvidia.com/discover/ray-tracing)
+[Nvidia Raytracing explination 🔗 🖥️](https://developer.nvidia.com/discover/ray-tracing)
 
 ## Features ✨
 **Rendering Capabilities:**
@@ -28,26 +28,40 @@ This Ray Tracer is a project exploring the world of ray tracing, a rendering tec
 - **🌈 Gradient Shading on Spheres and Cylinders:** Add depth and realism to your scenes with gradual color variations.
 - **🏁 Checkboard Patterns on Planes:** Showcase the power of ray tracing by creating checkerboard patterns on planar surfaces.
 
-## Screenshots
+## Screenshots 📸
 ![miniRt](https://github.com/mohouyizme/minimado/assets/118683350/f80221b5-557c-4929-8ab3-9ea0a270bedc)
 ![Mini_rt scene](https://github.com/mohouyizme/minimado/assets/118683350/45ac1835-ae95-42b8-babd-4a745de7b923)
 ![Mini_rt scene](https://github.com/mohouyizme/minimado/assets/118683350/830eb9f6-d178-4231-a89a-7c29e63b84bd)
 
-## Setup
-### Installation
-### Usage
+## Setup 🛠️
+### Installation  💻
+### Dependencies needed 📦
+Installing these dependencies on Ubuntu can be done as follows:
+```
+sudo apt-get install xorg libxext-dev zlib1g-dev libbsd-dev
+```
+### Usage 🚀
+Run the following to make the project
+```
+make mlx && make
+```
+After making the project you can then run the program as follow
+```
+./miniRT scenes/<name of scene>
+```
 
-## Project layout
+## Project layout 📁
     ├─ Makefile    			
     ├─ includes/
     ├─ libs/
-    ├─ libs/      	
+    ├─ scenes/      	
     ├─ srcs/
     │  ├─ parsing/
     │  ├─ randring/
+    |  ├─ utils/
     └─ LICESNE
 
-## Resources
+## Resources 📚
 [🔗 Raytracing in weekend series](https://raytracing.github.io/)
 
 [🔗 Scratchpixel](https://scratchapixel.com/index.html)
@@ -59,6 +73,6 @@ This Ray Tracer is a project exploring the world of ray tracing, a rendering tec
 
 [🔗 Texture && mapping](http://graphics.cs.cmu.edu/nsp/course/15-462/Spring04/slides/09-texture.pdf)
 
-## License
+## License 📃
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
