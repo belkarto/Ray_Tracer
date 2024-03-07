@@ -18,24 +18,24 @@ void	put_text(t_data *data)
 		data->img.img, 300, 0);
 	mlx_put_image_to_window(data->mlx_ptr, data->win_ptr,
 		data->menu_img.img, 0, 0);
-	mlx_string_put(data->mlx_ptr, data->win_ptr, 80, 540, 0xFF0000,
+	mlx_string_put(data->mlx_ptr, data->win_ptr, 80, 550, 0xFF0000,
 		"RERANDER IMAGE");
-	mlx_string_put(data->mlx_ptr, data->win_ptr, 40, 10, 0x0000C0FF,
+	mlx_string_put(data->mlx_ptr, data->win_ptr, 40, 20, 0x0000C0FF,
 		"Plane checkboard");
 	if (data->switches.checkboard_plane)
-		mlx_string_put(data->mlx_ptr, data->win_ptr, 15, 10, 0x0000C0FF, "X");
-	mlx_string_put(data->mlx_ptr, data->win_ptr, 40, 40, 0x0000C0FF,
+		mlx_string_put(data->mlx_ptr, data->win_ptr, 17, 25, 0x0000C0FF, "X");
+	mlx_string_put(data->mlx_ptr, data->win_ptr, 40, 50, 0x0000C0FF,
 		"Sphere specular");
 	if (data->switches.specular)
-		mlx_string_put(data->mlx_ptr, data->win_ptr, 15, 40, 0x0000C0FF, "X");
-	mlx_string_put(data->mlx_ptr, data->win_ptr, 40, 70, 0x0000C0FF,
+		mlx_string_put(data->mlx_ptr, data->win_ptr, 17, 55, 0x0000C0FF, "X");
+	mlx_string_put(data->mlx_ptr, data->win_ptr, 40, 80, 0x0000C0FF,
 		"Sphere gradient");
 	if (data->switches.sphere_gradient)
-		mlx_string_put(data->mlx_ptr, data->win_ptr, 15, 70, 0x0000C0FF, "X");
-	mlx_string_put(data->mlx_ptr, data->win_ptr, 40, 100, 0x0000C0FF,
+		mlx_string_put(data->mlx_ptr, data->win_ptr, 17, 85, 0x0000C0FF, "X");
+	mlx_string_put(data->mlx_ptr, data->win_ptr, 40, 110, 0x0000C0FF,
 		"Cylinder gradient");
 	if (data->switches.cylinder_gradient)
-		mlx_string_put(data->mlx_ptr, data->win_ptr, 15, 100, 0x0000C0FF, "X");
+		mlx_string_put(data->mlx_ptr, data->win_ptr, 17, 115, 0x0000C0FF, "X");
 }
 
 void	rerander(t_data *data)
